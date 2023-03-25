@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Playfair+Display&family=Press+Start+2P&family=Roboto&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white ">
+            <a class="navbar-brand" href="index.php">Cis-Porto
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="#aboutMe">About Me</a>
+                    </li>
+
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="#portofolioProject">Portofolio</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </div>
+
+    <header class="justify-content-center text-center">
+
+        <img src="frontend/images/foto.jpg" alt="">
+        <h4>Halo, I'm Mukhlis</h4>
+        <h1> Quality Engineer </h1>
+        <h2><b>I would be happy to help testing your product <br> with <br>Automation Testing and Manual Testing </b></h2>
+        <a href="https://t.me/mukhlisanshori" target="_blank"><button type="button" class="btn btn-primary">Let's Talk</button></a>
+    </header>
+
+
+    <main>
+
+        <section class="section-about">
+            <div class="container">
+                <div class="deskripsi">
+                    <div class="about-me" id="aboutMe">
+                        <h2 class="mt-4">About Me</h2>
+                        <p class="mt-4"> <b>I am graduated Informatics Engineering from Brawijaya University with a GPA of 3.11 and took part in the Immersive Program Quality Engineer at Altera Academy. Having knowledge of performing Manual and 
+                            Automation testing for Web application and API using Java, Postman, SerenityBDD, Cucumber, Maven, Rest Assured and Gherkin, Databases MySQL, performance testing using JMeter. Looking for a technology company to grow with and expand their software testing expertise</p></b> 
+                    
+                        <h2 class="mt-4" id= "contact">Contact Me</h2>
+                        <ul>
+                            <li>
+                                <p>Email : mukhlisanshori1997@gmail.com</p>
+                            </li>
+                            <li>
+                                <p>Telegram : <a href="https://t.me/mukhlisanshori" target="_blank" >@mukhlisanshori</a></p>
+                            </li>
+                            <li>
+                                <p>LinkedIn : <a href="https://www.linkedin.com/in/mukhlis-anshori-witanto-809a9a125/" target="_blank">Mukhlis Anshori Witanto</a></p>
+                            </li>
+                            <li>
+                                <p> Github : <a href="https://github.com/mukhlisucis" target="_blank">mukhlisucis</a></p>
+                            </li>
+                        </ul>
+
+                        </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-job-exp mt-4">
+            <div class="container">
+                <div class="job-exp"><br>
+                    <h2>Job Experience</h2>
+                    <div class="row job-desc">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <h4><b>Klinik Sarangan Medicare</b></h4>
+                            <h5><b><u>Admin & IT Support</u></b></h5>
+                            <h6><b>Jan 2021 - Present · 2 yrs 3 mosJan 2021 - Present · 2 yrs 3 mos </b><br>Malang, East Java, Indonesia · On-site</h6>
+                            <b>
+                            <ul>
+                                <li>Testing system clinic</li>
+                                <li>Design website clinic</li>
+                                <li>Entry data processing</li>
+                                <li>Install and configure computer hardware operating systems and applications</li>
+                                <li>Monitor and maintain computer systems</li>
+                                <li>Troubleshooting system and network problems, diagnosing and solving a computer hardware or software failures</li>
+                                <li>Replace computer parts as required</li>
+                            </ul>
+                            <p>Skills: Manual Testing · Customer Service · Front-End Development · Technical Support</p> </b>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h4><b>Telkom Indonesia · Internship</b></h4>
+                        <h5><b><u>Quality Assurance Engineer </u></b></h5>
+                            <h6><b>Jun 2019 - Aug 2019 · 3 mos </b><br>Malang, Jawa Timur, Indonesia · On-site</h6>
+                            <b>
+                            <ul>
+                                <li>I have completed campus activities for an internship for 3 months at PT Telkom Indonesia. At Telkom itself, they were given the task of overseeing Malang Regency MSME products, 
+                                    so my team and I made a product, namely the Malang Regency MSME Product Sale and Purchase Website (e-commerce).</li>
+                                <li>Work in team for test an e-commerce web, employing various testing techniques and
+methodologies using manual and automation testing using selenium</li>    
+                                <li>Reporting issues/defects found</li>
+                            </ul>
+                            <p>Skills: Quality Assurance · Manual Testing · SQL · HTML · Web Development · PHP</p></b>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-skill mt-4">
+            <div class="container">
+                <div class="skill">
+                    <h2>Education</h2>
+                    <h3>Alterra Academy</h3>
+                    <h5><b>Quality Engineer</b></h5>
+                    <p>Nov 2022 - Mar 2023</p>
+                    <ul><b>
+                        <li>Activities and societies: Learning about Fundamental Testing , Agile, Manual Testing, Web Automation Testing (Selenium, SerenityBDD) , Automation Testing Api (RestAssured, SerenityBDD) ,Performance Testing (JMeter), Git Version Control, SQL, Java</li>
+                        <li>Skills: Quality Assurance · Quality Engineering · Test Automation · Java · Selenium · Manual Testing · API Testing · Postman API · Performance Testing · JMeter · SQL · Git</li>
+                        </b>
+                    </ul>
+<br>
+                    
+                    <h3>Universitas Brawijaya</h3>
+                    <h5><b>Teknik Informatika</b></h5>
+                    <p>Aug 2016 - Sept 2020</p>
+                    <ul><b>
+                        <li>8/8 semesters, 3.11/4.00 GPA cumulative</li>
+                        <li>Skills: Quality Assurance · Java · SQL · Data Analysis · Web Development</li>
+                        </b>
+                    </ul>
+                    <a href="https://www.linkedin.com/in/mukhlis-anshori-witanto-809a9a125/overlay/1635521196443/single-media-viewer/?profileId=ACoAAB7zaQkBNKMa9KvddISnc8pUZoe4Btklvxg" target="_blank"><button type="button" class="btn btn-info">Show Credential</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="section-porto mt-4">
+            <div class="container">
+                <div class="porto" id ="portofolioProject">
+                    <br>
+                    <h2>Portofolio Project</h2> <br>
+                    <div class="row list-porto">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/sirloin.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation API SirloinPOS</h5>
+                            <p class="card-text">SirloinPOS tries to handle the user changing from manual to automatic by using this system. Framework Used in Automation Testing : BDD Cucumber , REST ASSURED , Java</p>
+                            <a href="https://github.com/SirloinPOSApp/SIRLOIN-API-AUTOMATION-TESTING" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div> 
+                        </div>   <br>
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/sirloin.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation Web SirloinPOS</h5>
+                            <p class="card-text">SirloinPOS tries to handle the user changing from manual to automatic by using this system. Framework Used in Automation Testing : BDD Cucumber , Selenium , Java</p>
+                            <a href="https://github.com/SirloinPOSApp/SIRLOIN-TESTING-WEB-AUTOMATION" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/swagger.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation API Testing Pet Shop Swagger</h5>
+                            <p class="card-text">Automation testing API Petshop Swagger Framework Used in Automation Testing : BDD Cucumber , Rest Assured , Java</p>
+                            <a href="https://github.com/mukhlisucis/SwaggerPetshopAutomation" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/reqres.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation API Testing reqres</h5>
+                            <p class="card-text">Automation API Testing reqres. Framework Used in Automation Testing : BDD Cucumber , REST ASSURED , Java</p>
+                            <a href="https://github.com/mukhlisucis/ALTA-Serenity-Rest-QE8-Mukhlis" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   <br>
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/sauce.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation Testing Website saucedemo.com</h5>
+                            <p class="card-text">Testing web saucedemo. Framework Used in Automation Testing : BDD Cucumber , Selenium , Java</p>
+                            <a href="https://github.com/mukhlisucis/SauceDemo" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/orange.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation Web OrangeHRM</h5>
+                            <p class="card-text">Automation website open source OrangeHRM. Framework Used in Automation Testing : BDD Cucumber , Selenium , Java</p>
+                            <a href="https://github.com/mukhlisucis/AutomationOrangeHRM" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/logo2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Catering mba i'a</h5>
+                            <p class="card-text">building website for catering Framework Used in building website : Bootstrap, html, css </p><br> <br>
+                            <a href="https://github.com/mukhlisucis/web-catering" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/klinik.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Klinik Sarangan Medicare</h5>
+                            <p class="card-text">building website for Klinik Sarangan Framework Used in building website : Bootstrap, html, css </p><br>
+                            <a href="https://github.com/mukhlisucis/Web-Klinik" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="frontend/images/bwa.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Nomads BuildWith Angga</h5>
+                            <p class="card-text">building website for Nomads BuildWith Angga Framework Used in building website : Bootstrap, html, css </p><br>
+                            <a href="https://github.com/mukhlisucis/nomads" target="_blank" class="btn btn-primary">Source Code</a>
+                        </div>
+                        </div>   
+                    </div> 
+
+        </section>
+        
+        <section class="contact">
+            <div class="container"></div>
+        </section>
+    </main>
+
+
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>

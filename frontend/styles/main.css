@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Assistant", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", cursive;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #0c3188;
+  color: white;
+  transition: 0.3s;
+}
+
+header {
+  padding: 130px 0 115px;
+  background-image: url(../images/header.jpg);
+  margin-top: -70px;
+}
+header h4 {
+  font-family: "Roboto", sans-serif;
+}
+header img {
+  width: 100px;
+  border-radius: 100px 100px 0px 100px;
+  margin-left: -270px;
+}
+header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.section-about h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.section-about p {
+  font-size: 20px;
+}
+
+
+.section-skill h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.section-skill li {
+  font-size: 18px;
+}
+
+.section-job-exp{
+  background-color: rgb(227, 232, 235);
+}
+.section-job-exp h2 {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.section-sertif h2 {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.section-porto {
+  background-color: rgb(227, 232, 235);
+}
+.section-porto h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.card {
+  width: 18rem;
+}
+.card .card-img-top {
+  height: 170px;
+}
+
+.btn-info{
+  background: rgb(102, 145, 141);
+ 
+}
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    display: none;
+  }
+  .nav-item {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbar-brand {
+    display: none;
+  }
+  .nav-item {
+    padding: 0px;
+  }
+}/*# sourceMappingURL=main.css.map */
